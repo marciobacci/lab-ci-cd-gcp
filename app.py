@@ -4,4 +4,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return  "Deploy automático via Cloud Build funcionando!\n" 
+    return  "Deploy automático via Cloud Build funcionandoo!\n" 
