@@ -4,4 +4,4 @@ def test_root_returns_expected_message():
     client = app.test_client()
     resp = client.get("/")
     assert resp.status_code == 200
-    assert resp.data.decode("utf-8") == "Deploy automático via Cloud Build funcionaando!\n"
+    assert resp.data.decode("utf-8") == "Deploy automático via Cloud Build funcionando!\n"
